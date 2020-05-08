@@ -3,9 +3,9 @@
 ## Permissions
 
 ### Contributors
-These users are assigned the *triage* role in order to proactively manage issues and pull requests without write access.  The terraform-contributors team members will have this role to encourage contribution to the repository.
+These users are assigned the *write* role in order to push to your project, although the master branch is protected from contributors.  The terraform-contributors team members will have this role to encourage contribution to the repository.
 ### Code Owners
-These users must be assigned the *write* role in order to push to your project.  There should be at least 2 users assigned the write role per repository.
+These users are also assigned the *write* role in order to push to your project, but they are also listed in the CODEOWNERS file in order to approve pull requests and push to the master branch.  There should be at least 2 code owners assigned per repository.
 ### Repository Admins
 Users with *admin* role will have full access to the project.  This role should be limited to a select few individuals. Organizational and Account admins would also have repository admin role priveleges if they were required so it may not be required for every repository to have admins explicitly assigned.
 
